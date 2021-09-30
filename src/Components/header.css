@@ -1,0 +1,92 @@
+.hero-container video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+   position: absolute;
+    z-index: 1;
+}
+
+.hero-container {
+position: relative;
+    /*background-image: url("https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+*/
+
+    height: 84vh;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    object-fit: contain;
+    width: 100%;
+    margin: 0px auto;
+    margin-bottom: 0;
+    background-position: center;
+    background-size: 100% 1000px;
+    background-repeat: no-repeat;
+}
+
+.hero-container h1,
+.hero-container p {
+    color: white;
+    padding: 0px;
+    margin-top: 0;
+    margin-bottom: 19px;
+    z-index: 1;
+}
+
+h1 {
+   
+    font-family: 'Special Elite', cursive;
+    border-right: 2px solid rgba(255,255,255, 0.75);
+    white-space: nowrap;
+    overflow: hidden;
+
+    
+}
+
+/*Animação do titulo*/
+
+.typing-animation {
+    animation: blinkCursor 600ms infinite normal, typing 10s steps(40) 1s normal;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: fit-content;
+    }
+}
+
+@keyframes blinkCursor{
+    from {
+        border-right-color: rgba(255,255,255, 0.75);
+    }
+    to {
+        border-right-color: transparent;
+    }
+
+}
+
+/*Tentando consertar a ordem dos elementos*/
+
+ .hero-btns {
+    z-index: 2;
+   
+}
+
+@media (max-width: 700px) {
+    .hero-container {
+       text-align: center;
+        width: 100%;
+        height: 500px;
+  
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+}

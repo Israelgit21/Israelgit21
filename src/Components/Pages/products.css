@@ -1,0 +1,100 @@
+* {
+    list-style: none;
+}
+
+.btn-products {
+  text-align: center;
+
+}
+
+.input-products {
+    width: 50%;
+    padding: 10px 10px;
+    margin-bottom: 22px;
+    outline: none;
+   border-radius: 10px;
+    font-size: 20pt;
+   border: 1px solid rgba(255, 0, 0, 0.37);
+   color: rgba(0, 0, 0, 0.452);
+   
+}
+
+.container-principal{
+    
+    
+    display: inline-flex;
+     flex-wrap: wrap;
+     padding: 10px;
+}
+
+
+.container-cards {
+  
+
+    background: rgba(201, 200, 200, 0.459);
+    margin: 0 0;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    height: 320px;
+    cursor: pointer;
+    
+
+}
+
+.container-cards img {
+   
+    width: 280px;
+    height: 180px;
+    border-radius: 20px;
+}
+
+
+.cards {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    margin-top: 0 ;
+    width: 280px;
+    padding-inline-start: 0;
+    padding-bottom: 0px;
+
+   
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 18px;
+    }
+}
+
+
+
+
+
+
+.car {
+    font-weight: bold;
+    margin: 0 5px;
+    font-size: 20   px;
+    margin-left: 15px;
+}
+
+.price {
+    margin: 0px; 
+    font-size: 18pt;
+    margin-left: 15px; 
+}
+
+.price span {
+    margin: 0px  5px;
+    color: black;
+    font-size: 30px;
+}
+
+.year {
+    margin-left: 15px;
+    margin-top: 7px;
+    color: rgba(0, 0, 255, 0.445);
+}

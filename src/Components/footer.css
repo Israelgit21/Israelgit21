@@ -1,0 +1,24 @@
+.Footer {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .Social a {
+    text-decoration: none;
+    padding: 20px;
+    font-size: 40px;
+    color: red;
+  }
+  .List ul li {
+    list-style: none;
+    margin: 0px 10px;
+    display: inline-block;
+  }
+  .Whatsaap {
+    text-decoration: none;
+    font-size: 40px;
+    color: red;
+  }
+  .Subtitulo {
+    font-size: 30px;
+    margin: 10px;
+  }

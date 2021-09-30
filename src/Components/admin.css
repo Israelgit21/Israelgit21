@@ -1,0 +1,29 @@
+.admin-options {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.admin-options button {
+    padding: 10px;
+    width: 91.6px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-family: 'Azeret Mono', monospace;
+    transition: 300ms
+}
+.admin-options button:hover {
+    background: black;
+    color: white; 
+    
+}
+.admin-options button:focus {
+    background: black;
+    color: white; 
+    
+}
+
